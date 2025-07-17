@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="imagens/contatos.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecontato.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+</head>
+
+
+<header id="menu">
+
+    <img class="logo" src="imagens/Foto Curriculo.jpeg" width="150px" alt="imagem de perfil">
+
+    <h1> Portifólio e currículo </h1>
+
+    <h2> Guillermo de Moura Borges </h2>
+
+    <nav>
+
+        <a class="links1" href="index.html"> ·Currículo </a>
+        <a class="links1" href="portfolio.html">·Portifólio </a>
+        <a class="links1" href="contatos.html"> ·Contatos </a>
+
+    </nav>
+</header>
+
+<div class="info01">
+
+    <h3> Informações Pessoais </h3>
+    <ul>
+        <li> Rua Estância N°303 </li>
+        <li> Guarulhos </li>
+        <li> São Paulo</li>
+        <li> guillermomouraborges@gmail.com</li>
+        <li> 11 965815707</li>
+        <li>Brasileiro e solteiro </li>
+    </ul>
+</div>
+
+<main>
+
+    <div>
+
+        <fieldset id="usuario">
+            <legend> Identificação do Usuário </legend>
+            <p>
+                <label>Nome:</label>
+
+                <input type="text" id="cnome" size="50" maxlength="50" placeholder="digite aqui seu nome completo"
+                    autofocus autocomplete="on" required>
+            </p>
+            <p>
+                <label> Senha: </label>
+
+
+                <input type="password" id="cnome" size="16" maxlength="16" placeholder="digite sua senha">
+            </p>
+
+            <P>
+                <label> E-mail: </label>
+                <input type="email" id="cemail" size="30" maxlength="30" placeholder="Digite um e-mail válido" required>
+            </P>
+            <label for=""> Data de nascimento</label>
+            <input type="date" name="cnasc" id="nasc">
+
+            <fieldset id="sexo">
+                <legend> Sexo </legend>
+                <p>
+                    <input type="radio" name="Sexo" id="cmas" checked for=""> Masculino </label>
+                </p>
+
+                <p>
+                    <input type="radio" name="Sexo" id="cfem"> <label for=""> Feminino </label>
+                </p>
+
+                <p>
+                    <input type="radio" name="Sexo" id="coutro"> <label for=""> Outro </label>
+                </p>
+
+            </fieldset>
+        </fieldset>
+
+
+
+
+
+
+
+
+        <fieldset id="endereco">
+
+            <legend> Endereço de Usuário</legend>
+            <p>
+                <label for=""> Logradouro</label>
+                <input type="text" name="Rua" id="crua" size="50" maxlength="50" placeholder="Rua, au, Trav...">
+            </p>
+
+            <p>
+                <label for=""> Número </label>
+                <input type="number" name="Rua" id="cnum" min="0" max="9999" step="1" value="1">
+            </p>
+            <p>
+                <label for=""> Estado</label>
+                <select name="estado" id="cestado">
+                    <option value="ac">Acre</option>
+                    <option value="al">Alagoas</option>
+                    <option value="ap">Amapá</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceará</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="go">Goiás</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="pa">Pará</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rr">Roraima</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="se">Sergipe</option>
+                    <option value="to">Tocantins</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="">Cidade: </label>
+                <input type="text" name="cid" id="ccidade" size="20" maxlength="20"
+                    placeholder="Digite a cidade que mora:">
+            </p>
+        </fieldset>
+
+        <fieldset id="mensagem">
+            <legend>Mensagem do usuário:</legend>
+
+            <p>
+                <label for=""> Mensagem: </label>
+            </p>
+            <p>
+                <textarea name="msg" id="cmsg" cols="50" - rows="10" placeholder="Digite aqui sua mensagem"
+                    maxlength="1000"></textarea>
+            </p>
+
+
+        </fieldset>
+        <input type="button" value="enviar" class="btn" name="enviar">
+        <input type="reset" value="limpar" class="btn" name="limpar">
+
+        </form>
+
+    </div>
+</main>
+
+<footer>
+    Portifólio - 2025 Design Guillermo de Moura Borges
+</footer>
+
+</html>

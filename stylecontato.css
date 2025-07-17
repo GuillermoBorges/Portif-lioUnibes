@@ -1,0 +1,58 @@
+p {
+    color: white;
+    font: 1rem verdana;
+}
+
+legend {
+    color: aqua;
+    font: 1.2rem verdana;
+    font-weight: bold;
+}
+
+fieldset {
+    width: 800px;
+    border: 1px solid white;
+    margin: 20px;
+
+}
+
+form {
+    width: 800px;
+    margin: auto 20rem auto 21rem;
+
+}
+
+fieldset #sexo {
+    width: 250px;
+    font: 1.3vw verdana;
+}
+
+input.btn {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin: 5px;
+    font: 1.3vw verdana;
+    border: none;
+}
+
+input.btn:hover{
+    background-color: black;
+    color: red;
+}
+
+fieldset#usuario {
+    background: url("imagens/user.png")no-repeat 95% 95%;
+    background-size: 300px;
+}
+
+fieldset#endereco {
+    background: url(imagens/location.png)no-repeat 95% 95%;
+    background-size: 200px;
+}
+
+fieldset#mensagem {
+    background: url("imagens/home.png")no-repeat 95% 95%;
+    background-size: 200px;
+    
+}
